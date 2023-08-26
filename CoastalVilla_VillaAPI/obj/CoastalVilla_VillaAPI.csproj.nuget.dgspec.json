@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\Desktop\\CoastalVilla\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj": {}
+    "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\Desktop\\CoastalVilla\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj": {
+    "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Desktop\\CoastalVilla\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj",
         "projectName": "CoastalVilla_VillaAPI",
-        "projectPath": "C:\\Users\\andre\\Desktop\\CoastalVilla\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj",
+        "projectPath": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Desktop\\CoastalVilla\\CoastalVilla_VillaAPI\\obj\\",
+        "outputPath": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_VillaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

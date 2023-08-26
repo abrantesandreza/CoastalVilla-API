@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KWeejRK4pUOkMTTLrGLSfvmexmuEYMOxBy9DE53jaHtdA5vW74w+2zIAeSA0UYL3MU1uZ8J037CX6pSL7SdT/A==",
+  "dgSpecHash": "MFy+VXYmaWVQouMTedFcbHQobZSqd5YscVxlMxD7Dln3W54zeafdX3slFsQ4kCyVG3PM4qY7JdZcUY67gDFakA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Desktop\\CoastalVilla\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
