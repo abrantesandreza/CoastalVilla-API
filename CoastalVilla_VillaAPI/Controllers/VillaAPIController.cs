@@ -1,4 +1,5 @@
-﻿using CoastalVilla_VillaAPI.Models;
+﻿using CoastalVilla_VillaAPI.Data;
+using CoastalVilla_VillaAPI.Models;
 using CoastalVilla_VillaAPI.Models.Dto;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,11 +13,7 @@ namespace CoastalVilla_VillaAPI.Controllers
         [HttpGet]
         public IEnumerable<VillaDTO> GetVillas()
         {
-            return new List<VillaDTO>
-            {
-                new VillaDTO { Id = 1, Name = "Pool View" },
-                new VillaDTO { Id = 2, Name = "Beach View" }
-            };
+            return VillaStore.villaList;
         }
     }
 }
