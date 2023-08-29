@@ -31,3 +31,7 @@ C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\obj\Debug\net7.0\r
 C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\obj\Debug\net7.0\CoastalVilla_VillaAPI.pdb
 C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\obj\Debug\net7.0\CoastalVilla_VillaAPI.genruntimeconfig.cache
 C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\obj\Debug\net7.0\ref\CoastalVilla_VillaAPI.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

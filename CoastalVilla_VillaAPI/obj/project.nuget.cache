@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "MFy+VXYmaWVQouMTedFcbHQobZSqd5YscVxlMxD7Dln3W54zeafdX3slFsQ4kCyVG3PM4qY7JdZcUY67gDFakA==",
+  "dgSpecHash": "7CAqvjUFM0xX3UBQMOpBScEJJurbDpGiRCRP0GaQZ1WVgwYbDMsWCqPm7uno/VYtZGrVuXCc4l4wYiVZNu0z/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.10\\microsoft.aspnetcore.jsonpatch.7.0.10.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.10\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.10.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
