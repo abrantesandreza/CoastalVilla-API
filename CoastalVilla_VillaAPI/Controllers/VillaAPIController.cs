@@ -1,4 +1,5 @@
 ﻿using CoastalVilla_VillaAPI.Data;
+using CoastalVilla_VillaAPI.Logging;
 using CoastalVilla_VillaAPI.Models;
 using CoastalVilla_VillaAPI.Models.Dto;
 using Microsoft.AspNetCore.JsonPatch;
@@ -11,9 +12,9 @@ namespace CoastalVilla_VillaAPI.Controllers
     [ApiController]
     public class VillaAPIController : ControllerBase
     {
-        private readonly ILogger<VillaAPIController> _logger;
+        private readonly ILogging _logger;
 
-        public VillaAPIController(ILogger<VillaAPIController> logger)
+        public VillaAPIController(ILogging logger)
         {
             _logger = logger;
         }
@@ -22,7 +23,7 @@ namespace CoastalVilla_VillaAPI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public ActionResult<IEnumerable<VillaDTO>> GetVillas()
         {
-            _logger.LogInformation("Getting all villas");
+            _logger.Log("Getting all villas", "");
             return Ok(VillaStore.villaList);
         }
 
@@ -34,7 +35,7 @@ namespace CoastalVilla_VillaAPI.Controllers
         {
             if (id == 0)
             {
-                _logger.LogError("Get Villa Error with Id " + id);
+                _logger.Log("Get Villa Error with Id " + id, "error");
                 return BadRequest();
             }
             var villa = VillaStore.villaList.FirstOrDefault(u => u.Id == id);
