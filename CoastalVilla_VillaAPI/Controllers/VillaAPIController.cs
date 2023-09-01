@@ -3,6 +3,7 @@ using CoastalVilla_VillaAPI.Models;
 using CoastalVilla_VillaAPI.Models.Dto;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CoastalVilla_VillaAPI.Controllers
 {
@@ -137,7 +138,7 @@ namespace CoastalVilla_VillaAPI.Controllers
             {
                 return BadRequest();
             }
-            var villa = _db.Villas.FirstOrDefault(u => u.Id == id);
+            var villa = _db.Villas.AsNoTracking().FirstOrDefault(u => u.Id == id);
 
             VillaDTO villaDTO = new()
             {
