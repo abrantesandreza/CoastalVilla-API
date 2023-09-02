@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "YNcOuUt26tPsQlfeIIJ9MdVHvoeDq5KIHUR6/n8v4g23lO92xdSOss9WEKs1rbuQuvcwvIVGbJ7F+csDLXoHiQ==",
+  "dgSpecHash": "aYp1hANJycHJA5XEhjwcabuL+ZMpHTO04WCQazh2Sk2N9oKL563JB6iNgFhPrQ65fB51JKgo2X9eqV5L8NmeoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
