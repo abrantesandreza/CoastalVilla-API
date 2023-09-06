@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "CoastalVilla_Utility/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/CoastalVilla_Utility.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CoastalVilla_Utility.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "CoastalVilla_Utility/1.0.0": {
-      "type": "project",
-      "path": "../CoastalVilla_Utility/CoastalVilla_Utility.csproj",
-      "msbuildProject": "../CoastalVilla_Utility/CoastalVilla_Utility.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "CoastalVilla_Utility >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\andre\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Web\\CoastalVilla_Web.csproj",
-      "projectName": "CoastalVilla_Web",
-      "projectPath": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Web\\CoastalVilla_Web.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Utility\\CoastalVilla_Utility.csproj",
+      "projectName": "CoastalVilla_Utility",
+      "projectPath": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Utility\\CoastalVilla_Utility.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Web\\obj\\",
+      "outputPath": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Utility\\CoastalVilla_Utility.csproj": {
-              "projectPath": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Utility\\CoastalVilla_Utility.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -80,9 +57,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
