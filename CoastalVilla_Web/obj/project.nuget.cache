@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V2U26k4wVJ2Vo0e7IQHaaSNR/g2jVn5O+H9fdFQe4uSb0Z6nJmm2r1pLlEZoL8xauGE8EvPVAo8EBVgUg3VCWQ==",
+  "dgSpecHash": "gPy14DOeTI9pfWRDH60D024NOpdQ4CFevBNOEjPPZiZqun0koIQAhtoaD+Tu9+WYbKh/uO2+IM0wstnODGPjig==",
   "success": true,
   "projectFilePath": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Web\\CoastalVilla_Web.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
