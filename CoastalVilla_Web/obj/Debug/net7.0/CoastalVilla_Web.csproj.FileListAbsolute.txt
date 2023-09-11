@@ -28,3 +28,10 @@ C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Web\obj\Debug\net7.0\refint
 C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Web\obj\Debug\net7.0\CoastalVilla_Web.pdb
 C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Web\obj\Debug\net7.0\CoastalVilla_Web.genruntimeconfig.cache
 C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Web\obj\Debug\net7.0\ref\CoastalVilla_Web.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Web\obj\Debug\net7.0\CoastalVilla_Web.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Web\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Web\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Web\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Web\bin\Debug\net7.0\CoastalVilla_Utility.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Web\bin\Debug\net7.0\CoastalVilla_Utility.pdb
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Web\obj\Debug\net7.0\CoastalVilla_Web.csproj.CopyComplete
