@@ -3,7 +3,7 @@
 <div class="container p-4 border">
     <div class="row pb-2">
         <div class="col">
-            <h1 class="text-primary">Villa List</h1>
+            <h1 class="text-secondary">Villa List</h1>
         </div>
         <div class="col text-end pt-1">
             <a asp-controller="Villa" asp-action="CreateVilla" class="btn btn-outline-success"><i class="bi bi-plus-square-fill"></i> Create New Villa</a>
@@ -33,7 +33,7 @@
                     <td>@item.Occupancy</td>
                     <td>@((item.Rate).ToString("c"))</td>
                     <td>
-                        <a asp-controller="Villa" asp-action="UpdateVilla" class="btn btn-primary"><i class="bi bi-pencil-square"></i></a>
+                        <a asp-controller="Villa" asp-action="UpdateVilla" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></a>
                         <a asp-controller="Villa" asp-action="DeleteVilla" class="btn btn-danger"><i class="bi bi-trash3-fill"></i></a>
                     </td>
                 </tr>
