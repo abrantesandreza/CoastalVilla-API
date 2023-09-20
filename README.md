@@ -7,7 +7,7 @@ Welcome to the **RESTful Web API with Authentication in .NET 7** repository! Thi
 - **RESTful API:** Build and interact with a comprehensive set of endpoints following REST architectural principles.
 - **Authentication:** Implement secure authentication to control access to the API's resources.
 - **.NET 7:** Utilize the latest features and improvements from the .NET 7 framework.
-- **Sample Data:** Explore the API with pre-seeded sample data.
+
 
 ## Authentication
 The API implements token-based authentication to ensure secure access. To access protected endpoints, include your authentication token in the request headers.
