@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZhF48ZkXYLvorw+4GoTGIDi71Y6CLJGsWI2DzaC6bWQ=",
+  "Hash": "bWt3Hm55yAJw3bkdlzW5l0cJ+maJkA3IYqllO/riCnc=",
   "Source": "CoastalVilla_Web",
   "BasePath": "_content/CoastalVilla_Web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CoastalVilla_Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Web\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "CoastalVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Web\\wwwroot\\",
+      "BasePath": "_content/CoastalVilla_Web",
+      "RelativePath": "css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
       "Identity": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Web\\wwwroot\\css\\site.css",
