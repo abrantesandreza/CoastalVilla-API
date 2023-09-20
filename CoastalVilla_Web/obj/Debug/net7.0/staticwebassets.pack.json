@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Web\\wwwroot\\images\\home\\slide1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\slide1.jpg"
+    },
+    {
       "Id": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
