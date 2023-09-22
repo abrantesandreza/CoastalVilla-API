@@ -6,7 +6,7 @@
         <hr />
 
         <div class="row">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div asp-validation-summary="All" class="text-danger"></div>
 
             <div class="col-2">
                 <label asp-for="VillaNumber.VillaNo" class="control-label pt-2" style="font-size:20px;"></label>
@@ -33,7 +33,7 @@
                 <span asp-validation-for="VillaNumber.SpecialDetails" class="text-danger"></span>
             </div>
             <div class="col-5 offset-2">
-                <a asp-action="IndexVilla" asp-controller="Villa" class="btn-primary btn form-control ">Back to list</a>
+                <a asp-action="IndexVillaNumber" asp-controller="VillaNumber" class="btn-primary btn form-control ">Back to list</a>
             </div>
             <div class="col-5">
                 <input type="submit" value="Create" class="btn btn-success form-control" />
