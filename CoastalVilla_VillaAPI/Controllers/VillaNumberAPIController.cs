@@ -91,13 +91,13 @@ namespace CoastalVilla_VillaAPI.Controllers
             {
                 if (await _dbVillaNumber.GetAsync(u => u.VillaNo == createDTO.VillaNo) != null)
                 {
-                    ModelState.AddModelError("CustomError", "Villa Number already exists!");
+                    ModelState.AddModelError("ErrorMessages", "Villa Number already exists!");
                     return BadRequest(ModelState);
                 }
 
                 if (await _dbVilla.GetAsync(u => u.Id == createDTO.VillaID) == null)
                 {
-                    ModelState.AddModelError("CustomError", "Villa ID is invalid!");
+                    ModelState.AddModelError("ErrorMessages", "Villa ID is invalid!");
                     return BadRequest(ModelState);
                 }
 
@@ -175,7 +175,7 @@ namespace CoastalVilla_VillaAPI.Controllers
 
                 if (await _dbVilla.GetAsync(u => u.Id == updateDTO.VillaID) == null)
                 {
-                    ModelState.AddModelError("CustomError", "Villa ID is invalid!");
+                    ModelState.AddModelError("ErrorMessages", "Villa ID is invalid!");
                     return BadRequest(ModelState);
                 }
 
