@@ -103,5 +103,10 @@ namespace CoastalVilla_Web.Controllers
 
             return View(model);
         }
+
+        public async Task<IActionResult> DetailsVilla()
+        {
+            return View();
+        }
     }
 }

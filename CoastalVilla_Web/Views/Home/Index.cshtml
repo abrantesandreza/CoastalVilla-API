@@ -3,20 +3,22 @@
 
 <img class="d-block w-100" src="images/home/slide1.jpg" alt="" />
 
-<div class="text-body-secondary pb-1 pt-5" style="display: flex; justify-content: center;">
-    <p>WELCOME TO THE COASTAL VILLA LUXURY RESORT</p>
-</div>
+<div class="welcoming-text pb-1 pt-3">
+    <div class="text-body-secondary pb-0 pt-5" style="display: flex; justify-content: center;">
+        <p>WELCOME TO THE COASTAL VILLA LUXURY RESORT</p>
+    </div>
 
-<div class="phrase-resort pb-1 pt-2" style="display:flex; justify-content:center; ">
-    <p style="font-size: 45px;">Retreat to our lavish sanctuary in Bali</p>
-</div>
+    <div class="phrase-resort pt-2" style="display:flex; justify-content:center; margin: 0% 10% 1% 10%">
+        <p style="font-size: 45px; text-align:center;"><strong>Retreat to our lavish sanctuary in Bali</strong></p>
+    </div>
 
-<div style="width: 33%; margin: 0 auto;">
-    <hr style="height: 3px; background-color: black;">
-</div>
+    <div style="width: 15%; margin: 0 auto;">
+        <hr style="height: 4px; background-color: black;">
+    </div>
 
-<div class="resort-welcoming-text pb-5 pt-2" style="display:flex; justify-content:center;">
-    <p style="font-size: 20px;">Luxuriate in a world of exquisite living at the villas with private pool and gazebo. Some villas boast direct access to the pristine beach or to the expansive saltwater lagoon.</p>
+    <div class="resort-welcoming-text pb-3 pt-1" style="display:flex; justify-content:center; margin: 2% 10% 4% 10%">
+        <p style="font-size: 20px; text-align:center;">Luxuriate in a world of exquisite living at the villas with private pool and gazebo. Some villas boast direct access to the pristine beach or to the expansive saltwater lagoon. Enjoy the tranquil sound of the ocean waves and the breathtaking views of the lush tropical landscape.</p>
+    </div>
 </div>
 
 <div class="row" style="--bs-gutter-x:0">
@@ -36,7 +38,7 @@
                 <div class="col-12">
                     <div class="row pb-3 pt-2">
                         <div class="col-4">
-                            <a href="" class="btn btn-success form-control btn-block" style="border-radius: 5px">Book now</a>
+                            <a asp-controller="Villa" asp-action="DetailsVilla" asp-route-VillaNo="" class="btn btn-info form-control btn-block" style="border-radius: 5px">Explore</a>
                         </div>
                         <div class="col-4">
                             <span class="">Max Occupancy : @villa.Occupancy adults</span><br />
