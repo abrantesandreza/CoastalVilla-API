@@ -10,13 +10,13 @@
         </div>
     </div>
 
-    <table class="table">
+    <table class="table table-hover">
         <thead>
             <tr>
-                <th>
+                <th scope="col">
                     Villa Name
                 </th>
-                <th>
+                <th scope="col">
                     Villa Number
                 </th>
                 <th></th>
@@ -25,7 +25,7 @@
         <tbody>
             @foreach (var item in Model)
             {
-                <tr>
+                <tr class="table-default">
                     <td>@item.Villa.Name</td>
                     <td>@item.VillaNo</td>
                     <td>
