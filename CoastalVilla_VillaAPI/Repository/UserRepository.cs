@@ -10,15 +10,17 @@ namespace CoastalVilla_VillaAPI.Repository
     public class UserRepository : IUserRepository
     {
         private readonly ApplicationDbContext _db;
+        private string secretKey;
 
-        public UserRepository(ApplicationDbContext db)
+        public UserRepository(ApplicationDbContext db, IConfiguration configuration)
         {
             _db = db;
+            secretKey = configuration.GetValue<string>("ApiSettings:Secret");
         }
 
         public bool IsUniqueUser(string username)
         {
-            var user = _db.LocalUsers.FirstOrDefault(x => x.UserName == username);
+            var user = _db.LocalUsers.FirstOrDefault(u => u.UserName == username);
             if (user == null)
             {
                 return true;
@@ -29,7 +31,16 @@ namespace CoastalVilla_VillaAPI.Repository
 
         public async Task<LoginResponseDTO> Login(LoginRequestDTO loginRequestDTO)
         {
-            throw new NotImplementedException();
+            var user = _db.LocalUsers.FirstOrDefault(u => u.UserName.ToLower() ==  loginRequestDTO.UserName.ToLower()
+            && u.Password == loginRequestDTO.Password);
+
+            if (user == null)
+            {
+                return null;
+            }
+
+            // if user was found generate JWT Token
+
         }
 
         public async Task<LocalUser> Register(RegistrationRequestDTO registrationRequestDTO)
