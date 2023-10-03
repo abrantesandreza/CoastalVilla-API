@@ -80,3 +80,4 @@ C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\bin\Debug\net7.0\r
 C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_VillaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
