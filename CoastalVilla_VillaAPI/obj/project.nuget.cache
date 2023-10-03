@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aYp1hANJycHJA5XEhjwcabuL+ZMpHTO04WCQazh2Sk2N9oKL563JB6iNgFhPrQ65fB51JKgo2X9eqV5L8NmeoQ==",
+  "dgSpecHash": "LIPx0npI51TC673H5htVgXDaUuEtWcTtMlv0qyfv1q+mZFn1VBkH+n97qFqhVe6b0joT6L13r59rOHWZfIEZGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\andre\\Desktop\\CoastalVilla-API\\CoastalVilla_VillaAPI\\CoastalVilla_VillaAPI.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\andre\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.11\\microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.10\\microsoft.aspnetcore.jsonpatch.7.0.10.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.10\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.10.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
