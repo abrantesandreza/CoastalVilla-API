@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using CoastalVilla_Utility;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor httpAcc
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -29,6 +32,30 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="VillaNumber" asp-action="IndexVillaNumber">Rooms</a>
                         </li>
+                        @if (httpAcc.HttpContext.Session.GetString(SD.SessionToken) != null &&
+                        httpAcc.HttpContext.Session.GetString(SD.SessionToken).ToString().Length > 0)
+                        {
+                            <div class="container">
+                                <ul class="nav justify-content-end">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-controller="Auth" asp-action="Logout">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="container">
+                                <ul class="nav justify-content-end">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-controller="Auth" asp-action="Login">Login</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-controller="Auth" asp-action="Register">Register</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        }
                     </ul>
                 </div>
             </div>
