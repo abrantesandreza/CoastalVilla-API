@@ -3,6 +3,7 @@ using CoastalVilla_Web.Models;
 using CoastalVilla_Web.Services.IServices;
 using Newtonsoft.Json;
 using System.Linq.Expressions;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json.Serialization;
 
@@ -48,6 +49,11 @@ namespace CoastalVilla_Web.Services
                 }
 
                 HttpResponseMessage apiResponse = null;
+
+                if (!string.IsNullOrEmpty(apiRequest.Token))
+                {
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiRequest.Token);
+                }
 
                 apiResponse = await client.SendAsync(message);
 
