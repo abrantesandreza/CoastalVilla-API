@@ -23,6 +23,13 @@ builder.Services.AddApiVersioning(options =>
 {
     options.AssumeDefaultVersionWhenUnspecified = true;
     options.DefaultApiVersion = new ApiVersion(1, 0);
+    options.ReportApiVersions = true;
+});
+
+builder.Services.AddVersionedApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'VVV";
+    options.SubstituteApiVersionInUrl = true;
 });
 
 var key = builder.Configuration.GetValue<string>("ApiSettings:Secret");
@@ -81,6 +88,40 @@ builder.Services.AddSwaggerGen(options =>
         }
 
     });
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Version = "v1.0",
+        Title = "Coastal Villa V1",
+        Description = "API to manage the villa",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "Andreza Abrantes",
+            Url = new Uri("https://github.com/abrantesandreza")
+        },
+        License = new OpenApiLicense
+        {
+            Name = "Coastal License",
+            Url = new Uri("https://example.com/license")
+        }
+    });
+    options.SwaggerDoc("v2", new OpenApiInfo
+    {
+        Version = "v2.0",
+        Title = "Coastal Villa V2",
+        Description = "API to manage the villa",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "Andreza Abrantes",
+            Url = new Uri("https://github.com/abrantesandreza")
+        },
+        License = new OpenApiLicense
+        {
+            Name = "Coastal License",
+            Url = new Uri("https://example.com/license")
+        }
+    });
 });
 
 var app = builder.Build();
@@ -89,7 +130,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Coastal_VillaV1");
+        options.SwaggerEndpoint("/swagger/v2/swagger.json", "Coastal_VillaV2");
+    });
 }
 
 app.UseHttpsRedirection();
