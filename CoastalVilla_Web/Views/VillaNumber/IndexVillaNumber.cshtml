@@ -1,12 +1,9 @@
 ﻿@model IEnumerable<CoastalVilla_Web.Models.Dto.VillaNumberDTO>
 <br />
-<div class="container p-4 border">
+<div class="container p-4">
     <div class="row pb-2">
-        <div class="col">
-            <h1 class="text-secondary">Villa Rooms</h1>
-        </div>
         <div class="col text-end pt-1">
-            <a asp-controller="VillaNumber" asp-action="CreateVillaNumber" class="btn btn-outline-success"><i class="bi bi-plus-square-fill"></i> Create New Villa Number</a>
+            <a asp-controller="VillaNumber" asp-action="CreateVillaNumber" class="btn btn-outline-success"><i class="bi bi-plus-square-fill"></i> Create New Room</a>
         </div>
     </div>
 
@@ -17,7 +14,7 @@
                     Villa Name
                 </th>
                 <th scope="col">
-                    Villa Number
+                    Room
                 </th>
                 <th></th>
             </tr>
