@@ -4,11 +4,11 @@ using CoastalVilla_VillaAPI.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
-namespace CoastalVilla_VillaAPI.Controllers.v1
+namespace CoastalVilla_VillaAPI.Controllers
 {
     [Route("api/v{version:apiVersion}/UsersAuth")]
     [ApiController]
-    [ApiVersion("1.0")]
+    [ApiVersionNeutral]
     public class UsersController : Controller
     {
         private readonly IUserRepository _userRepo;
