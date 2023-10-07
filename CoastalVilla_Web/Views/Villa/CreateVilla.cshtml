@@ -1,10 +1,11 @@
 ﻿@model CoastalVilla_Web.Models.Dto.VillaCreateDTO
 
 <form asp-action="CreateVilla">
-    <div class="container border p-3">
-        <h1 class="text-primary">Create Villa</h1>
-        <hr />
 
+    <div class="container pt-4">
+        <div class="text-create-new-villa pt-4 pb-5">
+            <h1 class="text-primary">Create a New Villa</h1>
+        </div>
         <div class="row">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
@@ -69,9 +70,9 @@
             <div class="col-5">
                 <input type="submit" value="Create" class="btn btn-success form-control" />
             </div>
-
         </div>
     </div>
+
 </form>
 
 @section Scripts {

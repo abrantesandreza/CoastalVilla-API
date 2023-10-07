@@ -1,9 +1,10 @@
 ﻿@model CoastalVilla_Web.Models.Dto.VillaUpdateDTO
 
 <form asp-action="UpdateVilla">
-    <div class="container border p-3">
-        <h1 class="text-primary">Update Villa</h1>
-        <hr />
+    <div class="container p-3">
+        <div class="text-create-new-villa pt-4 pb-4">
+            <h1 class="text-primary">Update Villa</h1>
+        </div>
 
         <input hidden asp-for="Id" />
         <div class="row">
@@ -68,7 +69,7 @@
                 <a asp-action="IndexVilla" asp-controller="Villa" class="btn-primary btn form-control ">Back to list</a>
             </div>
             <div class="col-5">
-                <input type="submit" value="Update" class="btn btn-success form-control" />
+                <input type="submit" value="Update" class="btn btn-warning form-control" />
             </div>
 
         </div>
