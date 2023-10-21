@@ -29,6 +29,7 @@ namespace CoastalVilla_VillaAPI.Controllers.v1
         }
 
         [HttpGet]
+        [ResponseCache(Duration = 30)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
