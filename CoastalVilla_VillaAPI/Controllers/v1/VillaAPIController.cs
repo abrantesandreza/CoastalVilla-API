@@ -34,7 +34,7 @@ namespace CoastalVilla_VillaAPI.Controllers.v1
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<APIResponse>> GetVillas([FromQuery(Name ="filterOccupancy")] int? occupancy,
-            [FromQuery] string? search)
+            [FromQuery] string? search, int pageSize = 2, int pageNumber = 1)
         {
             try
             {
@@ -42,11 +42,13 @@ namespace CoastalVilla_VillaAPI.Controllers.v1
 
                 if (occupancy > 0)
                 {
-                    villaList = await _dbVilla.GetAllAsync(u => u.Occupancy == occupancy);
+                    villaList = await _dbVilla.GetAllAsync(u => u.Occupancy == occupancy, pageSize:pageSize,
+                        pageNumber:pageNumber);
                 }
                 else
                 {
-                    villaList = await _dbVilla.GetAllAsync();
+                    villaList = await _dbVilla.GetAllAsync(pageSize: pageSize,
+                        pageNumber: pageNumber);
                 }
                 if (!string.IsNullOrEmpty(search))
                 {

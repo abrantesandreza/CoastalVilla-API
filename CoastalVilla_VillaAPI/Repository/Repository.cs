@@ -36,6 +36,7 @@ namespace CoastalVilla_VillaAPI.Repository
             {
                 query = query.Where(filter);
             }
+            
             if (includeProperties != null)
             {
                 foreach(var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
@@ -47,7 +48,8 @@ namespace CoastalVilla_VillaAPI.Repository
             return await query.FirstOrDefaultAsync();
         }
 
-        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
+        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>>? filter = null, string? includeProperties = null,
+            int pageSize = 3, int pageNumber = 1)
         {
             IQueryable<T> query = dbSet;
 
@@ -55,6 +57,16 @@ namespace CoastalVilla_VillaAPI.Repository
             {
                 query = query.Where(filter);
             }
+
+            if (pageSize > 0)
+            {
+                if (pageSize > 100)
+                {
+                    pageSize = 100;
+                }
+                query = query.Skip(pageSize * (pageNumber - 1)).Take(pageSize);
+            }
+
             if (includeProperties != null)
             {
                 foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
