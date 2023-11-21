@@ -50,10 +50,12 @@ namespace CoastalVilla_Web.Controllers
                 var response = await _villaService.CreateAsync<APIResponse>(model, HttpContext.Session.GetString(SD.SessionToken));
                 if (response != null && response.IsSuccess)
                 {
+                    TempData["success"] = "Villa created successfully!";
                     return RedirectToAction(nameof(IndexVilla));
                 }
             }
 
+            TempData["error"] = "Error: Something went wrong!";
             return View(model);
         }
 
@@ -80,10 +82,12 @@ namespace CoastalVilla_Web.Controllers
                 var response = await _villaService.UpdateAsync<APIResponse>(model, HttpContext.Session.GetString(SD.SessionToken));
                 if (response != null && response.IsSuccess)
                 {
+                    TempData["success"] = "Villa updated successfully!";
                     return RedirectToAction(nameof(IndexVilla));
                 }
             }
 
+            TempData["error"] = "Error: Something went wrong!";
             return View(model);
         }
 
@@ -108,9 +112,11 @@ namespace CoastalVilla_Web.Controllers
             var response = await _villaService.DeleteAsync<APIResponse>(model.Id, HttpContext.Session.GetString(SD.SessionToken));
             if (response != null && response.IsSuccess)
             {
+                TempData["success"] = "Villa deleted successfully!";
                 return RedirectToAction(nameof(IndexVilla));
             }
 
+            TempData["error"] = "Error: Something went wrong!";
             return View(model);
         }
     }
