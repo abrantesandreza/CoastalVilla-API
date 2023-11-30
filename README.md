@@ -9,8 +9,42 @@ Welcome to the **RESTful Web API with Authentication in .NET 7** repository! Thi
 - **.NET 7:** Utilize the latest features and improvements from the .NET 7 framework.
 - **Sample Data:** Explore the API with pre-seeded sample data.
 
+**Endpoints - Users**
+
+| Verbo  | Endpoint                | Parâmetro |
+|--------|-------------------------|-----------|
+| POST   | /UsersAuth/login        | N/A       |
+| POST   | /UsersAuth/register     | N/A       |
+
+**Endpoints - VillaAPI**
+
+| Verbo  | Endpoint                | Parâmetro |
+|--------|-------------------------|-----------|
+| GET    | /VillaAPI               | N/A       |
+| POST   | /VillaAPI               | N/A       |
+| GET    | /VillaAPI/{id}          | id        |
+| DELETE | /VillaAPI/{id}          | id        |
+| PUT    | /VillaAPI/{id}          | id        |
+| PATCH  | /VillaAPI/{id}          | id        |
+
+**Endpoints - VillaNumberAPI**
+
+| Verbo  | Endpoint                | Parâmetro |
+|--------|-------------------------|-----------|
+| GET    | /VillaNumberAPI         | N/A       |
+| POST   | /VillaNumberAPI         | N/A       |
+| GET    | /VillaNumberAPI/{id}    | id        |
+| DELETE | /VillaNumberAPI/{id}    | id        |
+| PUT    | /VillaNumberAPI/{id}    | id        |
+| PATCH  | /VillaNumberAPI/{id}    | id        |
+
+
 ## Authentication
 The API implements token-based authentication to ensure secure access. To access protected endpoints, include your authentication token in the request headers.
+
+
+
+
 
 ## Contributing
 Contributions are welcome! If you find a bug or have a suggestion, please create an issue or submit a pull request.
