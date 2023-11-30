@@ -16,6 +16,8 @@ Welcome to the **RESTful Web API with Authentication in .NET 7** repository! Thi
 | POST   | /UsersAuth/login        | N/A       |
 | POST   | /UsersAuth/register     | N/A       |
 
+**Swagger - Users**
+
 ![usersEndpoints](https://github.com/abrantesandreza/CoastalVilla-API/assets/87620471/25e7ad56-811d-4ce2-b326-8a0c36240933)
 
 **Endpoints - VillaAPI**
@@ -29,6 +31,8 @@ Welcome to the **RESTful Web API with Authentication in .NET 7** repository! Thi
 | PUT    | /VillaAPI/{id}          | id        |
 | PATCH  | /VillaAPI/{id}          | id        |
 
+**Swagger - VillaAPI**
+
 ![villaEndpoints](https://github.com/abrantesandreza/CoastalVilla-API/assets/87620471/9fa8d298-d486-4d37-b319-9e52033841f2)
 
 **Endpoints - VillaNumberAPI**
@@ -41,6 +45,8 @@ Welcome to the **RESTful Web API with Authentication in .NET 7** repository! Thi
 | DELETE | /VillaNumberAPI/{id}    | id        |
 | PUT    | /VillaNumberAPI/{id}    | id        |
 | PATCH  | /VillaNumberAPI/{id}    | id        |
+
+**Swagger - VillaNumberAPI**
 
 ![villaNumberEndpoints](https://github.com/abrantesandreza/CoastalVilla-API/assets/87620471/bc82e142-197f-446e-907b-c7b3793df3f2)
 
