@@ -11,10 +11,10 @@ Welcome to the **RESTful Web API with Authentication in .NET 7** repository! Thi
 
 **Endpoints - Users**
 
-| Verbo  | Endpoint                | Parâmetro |
-|--------|-------------------------|-----------|
-| POST   | /UsersAuth/login        | N/A       |
-| POST   | /UsersAuth/register     | N/A       |
+| Request  | Endpoint                | Parameter |
+|----------|-------------------------|-----------|
+| POST     | /UsersAuth/login        | N/A       |
+| POST     | /UsersAuth/register     | N/A       |
 
 **Swagger - Users**
 
@@ -22,14 +22,14 @@ Welcome to the **RESTful Web API with Authentication in .NET 7** repository! Thi
 
 **Endpoints - VillaAPI**
 
-| Verbo  | Endpoint                | Parâmetro |
-|--------|-------------------------|-----------|
-| GET    | /VillaAPI               | N/A       |
-| POST   | /VillaAPI               | N/A       |
-| GET    | /VillaAPI/{id}          | id        |
-| DELETE | /VillaAPI/{id}          | id        |
-| PUT    | /VillaAPI/{id}          | id        |
-| PATCH  | /VillaAPI/{id}          | id        |
+| Request  | Endpoint                | Parameter |
+|----------|-------------------------|-----------|
+| GET      | /VillaAPI               | N/A       |
+| POST     | /VillaAPI               | N/A       |
+| GET      | /VillaAPI/{id}          | id        |
+| DELETE   | /VillaAPI/{id}          | id        |
+| PUT      | /VillaAPI/{id}          | id        |
+| PATCH    | /VillaAPI/{id}          | id        |
 
 **Swagger - VillaAPI**
 
@@ -37,14 +37,14 @@ Welcome to the **RESTful Web API with Authentication in .NET 7** repository! Thi
 
 **Endpoints - VillaNumberAPI**
 
-| Verbo  | Endpoint                | Parâmetro |
-|--------|-------------------------|-----------|
-| GET    | /VillaNumberAPI         | N/A       |
-| POST   | /VillaNumberAPI         | N/A       |
-| GET    | /VillaNumberAPI/{id}    | id        |
-| DELETE | /VillaNumberAPI/{id}    | id        |
-| PUT    | /VillaNumberAPI/{id}    | id        |
-| PATCH  | /VillaNumberAPI/{id}    | id        |
+| Request  | Endpoint                | Parameter |
+|----------|-------------------------|-----------|
+| GET      | /VillaNumberAPI         | N/A       |
+| POST     | /VillaNumberAPI         | N/A       |
+| GET      | /VillaNumberAPI/{id}    | id        |
+| DELETE   | /VillaNumberAPI/{id}    | id        |
+| PUT      | /VillaNumberAPI/{id}    | id        |
+| PATCH    | /VillaNumberAPI/{id}    | id        |
 
 **Swagger - VillaNumberAPI**
 
