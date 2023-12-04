@@ -1,0 +1,11 @@
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Utility\bin\Release\net7.0\CoastalVilla_Utility.deps.json
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Utility\bin\Release\net7.0\CoastalVilla_Utility.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Utility\bin\Release\net7.0\CoastalVilla_Utility.pdb
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Utility\obj\Release\net7.0\CoastalVilla_Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Utility\obj\Release\net7.0\CoastalVilla_Utility.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Utility\obj\Release\net7.0\CoastalVilla_Utility.AssemblyInfo.cs
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Utility\obj\Release\net7.0\CoastalVilla_Utility.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Utility\obj\Release\net7.0\CoastalVilla_Utility.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Utility\obj\Release\net7.0\refint\CoastalVilla_Utility.dll
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Utility\obj\Release\net7.0\CoastalVilla_Utility.pdb
+C:\Users\andre\Desktop\CoastalVilla-API\CoastalVilla_Utility\obj\Release\net7.0\ref\CoastalVilla_Utility.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CoastalVilla_VillaAPI.props" />
+</Project>

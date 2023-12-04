@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CoastalVilla_VillaAPI.props" />
+</Project>
