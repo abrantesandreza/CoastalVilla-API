@@ -53,9 +53,5 @@ Welcome to the **RESTful Web API with Authentication in .NET 7** repository! Thi
 ## Authentication
 The API implements token-based authentication to ensure secure access. To access protected endpoints, include your authentication token in the request headers.
 
-
-
-
-
 ## Contributing
 Contributions are welcome! If you find a bug or have a suggestion, please create an issue or submit a pull request.
