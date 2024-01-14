@@ -45,11 +45,11 @@ Welcome to the **RESTful Web API with Authentication in .NET 7** repository! Thi
 
 - Not allowed users
 
-https://drive.google.com/file/d/1bC2fLiDAbUIFSiUL7LFwnOIJIAeN_xI7/view?usp=drive_link
+https://drive.google.com/file/d/1bC2fLiDAbUIFSiUL7LFwnOIJIAeN_xI7/view?usp=sharing
 
 - Admin level
-
-https://drive.google.com/file/d/1qGXeNlS_09_jaHPx1G0SvXmD32uQhj1k/view?usp=drive_link
+  
+https://drive.google.com/file/d/1qGXeNlS_09_jaHPx1G0SvXmD32uQhj1k/view?usp=sharing
 
 ## API
 
